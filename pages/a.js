@@ -1,14 +1,12 @@
 import Head from "next/head";
 import Link from "next/link";
-const Index = () => (
+
+const A = () => (
   <>
     <Head>
-      <title>next-pwa example</title>
+      <title>next-pwa example | Route a</title>
     </Head>
-    <h1>Next.js + PWA = AWESOME!</h1>
-    <h2>Following image will fallback to placeholder when offline</h2>
-    <img src="https://source.unsplash.com/600x400/?cat" />
-
+    <h1>This is route /a</h1>
     <h2>
       <Link href="/">Go to Home</Link>
     </h2>
@@ -20,4 +18,5 @@ const Index = () => (
     </h2>
   </>
 );
-export default Index;
+
+export default A;
